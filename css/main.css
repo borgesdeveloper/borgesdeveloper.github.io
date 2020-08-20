@@ -22,7 +22,6 @@ body{
 
 .content-side{
     width: 95%;
-    min-height: 980px;
     height: auto;
     float: left;
 }
@@ -128,4 +127,14 @@ body{
 .spancing-20{
     margin-left: 20px;
     float: left;
+}
+
+
+
+@media only screen and (max-width: 600px) 
+{
+
+
+
+
 }
