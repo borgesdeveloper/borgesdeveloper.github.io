@@ -1,0 +1,131 @@
+
+
+:root {
+    --main-bg-color: #272727;
+    --main-menu-color: #404040;
+}
+body{
+    background:var(--main-bg-color)
+}
+
+.editor{
+    width: 100%;
+    height: auto;
+}
+.menu-side{
+    background:var(--main-menu-color);
+    width: 50px;
+    min-height: 980px;
+    height: auto;
+    float: left;
+}
+
+.content-side{
+    width: 95%;
+    min-height: 980px;
+    height: auto;
+    float: left;
+}
+
+.line-block
+{
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+
+.line-block .number
+{
+    width: 50px;
+    height: 30px;
+    float: left;
+    border-right: 2px solid #557b5f;
+}
+
+.line-block .number span{
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    float: left;
+    font-family: monospace;
+    margin: 15px 0px 0px 20px;
+    color:#868686;
+}
+
+.line-block .line-code{
+    width: 80%;
+    height: 30px;
+    float: left;
+}
+
+.line-block .line-code span{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    float: left;
+    font-family: monospace;
+    margin: 10px 0px 0px 20px;
+    color:#868686;
+}
+.let {
+    color:#739bf7;
+    float: left;
+    margin-right: 12px;
+}
+.variable{
+    color:#b3c2e2;
+    float: left;
+    margin-right: 12px;
+}
+.string{
+    color:#e6a485;
+    float: left;
+    font-family: monospace;
+}
+.sintax{
+    color:#b3c2e2;
+    float: left;
+}
+.integer{
+    color:#f3da81;
+    float: left;
+}
+
+.function{
+    color:#fd8787;
+    margin-right: 12px;
+    float: left;
+}
+
+.method{
+    color:#f3da81;
+    float: left;
+}
+
+.export{
+    color:#fd8787;
+    float: left;
+    margin-right: 12px;
+}
+
+.default{
+    color:#fd8787;
+    float: left;
+    margin-right: 12px;
+}
+
+.return{
+    color:#fd8787;
+    float: left;
+    margin-right: 12px;
+}
+
+.spancing-12{
+    float: left;
+    margin-right: 12px;
+}
+
+.spancing-20{
+    margin-left: 20px;
+    float: left;
+}
